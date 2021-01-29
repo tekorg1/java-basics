@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#logo{
+    width: 70;
+    height: 50;
+}
+#header-website{
+    list-style-type: none;
+    margin: 0;
+    justify-content: stretch;
+    align-items: center;
+    padding: 8 32;
+    position: sticky;
+    height: 48pt;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #48484A;
+    color: #F2F2F2;
+    font-size: 14px;
+}
+li,form{
+    display: inline;
+}
+li a, li form{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
